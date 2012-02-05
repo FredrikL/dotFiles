@@ -12,4 +12,8 @@ PS1="${WHITE}(${GREEN}\u${BRIGHTGREEN}@${GREEN}\h${CYAN}:\w${WHITE})${GRAY} "
 
 tranquil_thoughts_prompt
 
+# linux
 alias ls='ls --color'
+
+#osx
+export CLICOLOR=1
