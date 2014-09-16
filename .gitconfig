@@ -33,3 +33,7 @@
     added = yellow
     changed = green
     untracked = cyan
+[user]
+	email = fredrik.leijon@gmail.com
+[push]
+	default = simple
