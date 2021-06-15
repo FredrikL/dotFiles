@@ -1,40 +1,57 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.fontLigatures": true,
-    "editor.fontFamily": "Fira Code",
-    "editor.fontSize": 10,
-    "editor.tabSize": 2,
-    "editor.renderWhitespace": "all",
-    "files.exclude": {
-        "**/.vscode": true,
-        "**/.jshintResult": true,
-        "**/node_modules": true,
-        "**/tmpFiles": true,
-        "cert": true,
-        "dist/": true,
-        "**/*.map": true,
-        "**/*.min.js": true
-    },
-    "editor.minimap.enabled": false,
-    "window.zoomLevel": 0,
-    "explorer.confirmDelete": false,
-    "[elixir]": {
-        "editor.formatOnSave": true,
-    },
-    "[elm]": {
-        "editor.formatOnSave": true
-    },
-    "workbench.statusBar.feedback.visible": false,
-    "javascript.updateImportsOnFileMove.enabled": "never",
-    "workbench.activityBar.visible": false,
-    "javascript.implicitProjectConfig.checkJs": true,
-    "editor.gotoLocation.multiple": "goto",
-    "workbench.colorTheme": "Monokai",
-    "explorer.autoReveal": true,
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontSize": 11,
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "all",
+  "files.exclude": {
+    "**/.vscode": true,
+    "**/.jshintResult": true,
+    "**/node_modules": true,
+    "**/tmpFiles": true,
+    "cert": true,
+    "dist/": true,
+    "**/*.map": true,
+    "**/*.min.js": true
+  },
+  "editor.minimap.enabled": false,
+  "explorer.confirmDelete": false,
+  "[elixir]": {
+    "editor.formatOnSave": true
+  },
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "workbench.activityBar.visible": true,
+  "javascript.implicitProjectConfig.checkJs": true,
+  "workbench.colorTheme": "Shades of Purple",
+  "explorer.autoReveal": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    "*.elm": "elm"
+  },
+  "[elm]": {
+    "editor.formatOnSave": true
+  },
+  "cSpell.userWords": ["trustpilot"],
+  "editor.maxTokenizationLineLength": 2000000,
+  "editor.rulers": [
+    80, // <- a ruler in the default color or as customized (with "editorRuler.foreground") at column 100
+    {
+      "column": 120,
+      "color": "#df4646"
     }
+  ],
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.suggest.autoImports": false,
+  "editor.formatOnSave": true
 }
