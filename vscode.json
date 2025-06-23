@@ -1,29 +1,26 @@
-// Place your settings in this file to overwrite the default settings
 {
   "editor.fontLigatures": true,
   "editor.fontFamily": "Fira Code",
-  "editor.fontSize": 11,
+  "editor.fontSize": 12,
   "editor.tabSize": 2,
   "editor.renderWhitespace": "all",
   "files.exclude": {
-    "**/.vscode": true,
+    ".coverage*": true,
+    "**/__pycache__": true,
     "**/.jshintResult": true,
+    "**/.vscode": true,
+    "**/*.map": true,
+    "**/*.min.js": true,
     "**/node_modules": true,
     "**/tmpFiles": true,
     "cert": true,
+    "coverage.xml": true,
     "dist/": true,
-    "**/*.map": true,
-    "**/*.min.js": true
+    "venv": true
   },
   "editor.minimap.enabled": false,
   "explorer.confirmDelete": false,
-  "[elixir]": {
-    "editor.formatOnSave": true
-  },
   "javascript.updateImportsOnFileMove.enabled": "never",
-  "workbench.activityBar.visible": true,
-  "javascript.implicitProjectConfig.checkJs": true,
-  "workbench.colorTheme": "Shades of Purple",
   "explorer.autoReveal": true,
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -34,13 +31,12 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "files.associations": {
     "*.elm": "elm"
   },
-  "[elm]": {
-    "editor.formatOnSave": true
-  },
-  "cSpell.userWords": ["trustpilot"],
   "editor.maxTokenizationLineLength": 2000000,
   "editor.rulers": [
     80, // <- a ruler in the default color or as customized (with "editorRuler.foreground") at column 100
@@ -53,5 +49,34 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "javascript.suggest.autoImports": false,
-  "editor.formatOnSave": true
+  "editor.bracketPairColorization.enabled": true,
+  "go.coverOnSave": true,
+  "go.coverageDecorator": {
+    "type": "gutter",
+    "coveredHighlightColor": "rgba(64,128,128,0.5)",
+    "uncoveredHighlightColor": "rgba(128,64,64,0.25)",
+    "coveredGutterStyle": "blockgreen",
+    "uncoveredGutterStyle": "blockred"
+  },
+  "go.coverOnSingleTest": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "go.toolsManagement.autoUpdate": true,
+  "redhat.telemetry.enabled": false,
+  "editor.stickyScroll.enabled": true,
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "go.alternateTools": {
+    "go": "/opt/homebrew/bin/go"
+  },
+  "chat.editing.alwaysSaveWithGeneratedChanges": true,
+  "workbench.colorTheme": "Catppuccin Frappé",
+  "makefile.configureOnOpen": false,
+  "chat.agent.enabled": true,
+  "github.copilot.nextEditSuggestions.enabled": true,
 }
